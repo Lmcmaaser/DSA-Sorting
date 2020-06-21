@@ -59,7 +59,9 @@ sorted result is: [1,  2,  9, 16, 21, 26, 27, 28, 29, 34, 39, 40, 43, 45, 46, 49
 
 /* Given a Linked List, sort the linked list using merge sort. You will need your linked list class from previous lesson to create the list and use all of its supplemental functions to solve this problem.*/
 
-//requires Node and LinkedList class
+//requires Node and linked list class
+//and a function that creates a linked list
+//see DSA-LinkedList repository
 
 function sortedLinkedList(head) {
   if (head === null || head.next !== null) {
